@@ -1,0 +1,12 @@
+.todoDone {
+  @apply w-96 h-48 rounded-3xl border text-custom-gray bg-custom-black mx-auto   flex items-center justify-center gap-7 mb-10;
+}
+
+.counterCircle {
+  @apply w-32 h-32 text-black bg-custom-orange rounded-full text-3xl font-black flex items-center justify-center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.text p {
+  @apply text-custom-gray text-xl font-normal tracking-wide;
+}

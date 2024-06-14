@@ -1,0 +1,41 @@
+.todo {
+  @apply w-96 h-16 rounded-xl border border-custom-gray bg-custom-black-second px-5 flex items-center justify-between;
+}
+
+.circleBorder {
+  @apply w-8 h-8 rounded-full border border-custom-orange;
+}
+
+.todoNameContainer {
+  @apply flex gap-4;
+}
+
+.buttonContainer {
+  @apply flex gap-4;
+}
+
+.actionButton {
+  @apply bg-none  text-2xl text-gray-400;
+  transition: transform 0.2s;
+}
+
+.buttonDelete:hover,
+.buttonCheck:hover {
+  transform: scale(1.3);
+}
+
+.buttonDelete:hover {
+  @apply text-red-500;
+}
+
+.buttonCheck:hover {
+  @apply text-green-500;
+}
+
+.circleCompleted {
+  @apply border-none bg-custom-green;
+}
+
+.crossed {
+  @apply line-through;
+}

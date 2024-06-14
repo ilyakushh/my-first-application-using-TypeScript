@@ -1,0 +1,16 @@
+* {
+  @apply box-border m-0 p-0;
+}
+
+body {
+  @apply text-2xl text-custom-gray font-bold bg-custom-black pt-7 text-center;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  @apply border-none text-black cursor-pointer;
+}
+
+input {
+  @apply outline-none;
+}
